@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+      min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    
+  }
+  .glass{
+      background:white;
+      min-height: 80vh;
+      width: 75%;
+      background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+      border-radius: 20px;
+      position: absolute;
+      top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  }
+
+
+  .header{
+    background:white;
+    min-height: 10vh;
+    width: 100%;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+}
+.listl li{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    color:  #2977e5;;
+    font-size: 2vw;
+  list-style: none;
+}
+
+.listr li{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bold;
+    color:  #05449d;;
+    font-size: 2vw;
+    list-style: none;
+}
+.presentation .card{
+    width: 12vw;
+    height: 12vw;
+    background-color: red;
+    text-align: center;
+}
+.presentation .card img{
+   margin-top: 2.5%;
+}
+.presentation .card h1{
+font-size: 1vw;
+}
+.presentation .card h2{
+    font-size: 0.8vw;
+    }
